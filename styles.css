@@ -58,6 +58,14 @@ body{
     color: #A81D83;
 }
 
+.azul-claro{
+    color: #0769DE;
+}
+
+.cinza{
+    color: #666666;
+}
+
 .menu-opcoes{
     width: 100%;
     height: 45px;
@@ -296,4 +304,12 @@ body{
 
 .angel .descricao-gabriel{
     margin-top: 10px;
+}
+
+a{
+    color: #2F3134;
+}
+
+.tech, .videos{
+    display: none;
 }
