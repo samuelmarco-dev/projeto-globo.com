@@ -1,315 +1,157 @@
-body{
-    font-family: 'Encode Sans', sans-serif;
-
-    background-color: #FFFFFF;
+body {
+    font-family: "Encode Sans", sans-serif;
+    background-color: #ffffff;
 }
 
-.topo-site{
+header {
     width: 100%;
-    height: 80px;
-
+    height: 8vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header img {
+    width: 171px;
+    height: 40px;
+}
+
+.menu-opcoes {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.g1 {
+    color: #c3170c;
+}
+
+.ge {
+    color: #07aa47;
+}
+
+.gshow {
+    color: #ec7d00;
+}
+
+main {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.noticias-g1 {
+    width: 45%;
+    height: 100%;
+}
+
+.noticia-principal,
+.relevantes {
+    width: 95%;
+    height: auto;
+}
+
+.noticia-principal h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 67px;
+    color: #c4160c;
+}
+
+.noticia-principal div {
+    height: auto;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.noticia-principal div p {
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #303134;
+}
+
+.horizontal {
+    width: 100%;
+    border-bottom: 1px solid #ebedef;
+    margin-top: 8px;
+}
+
+.noticia img {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.noticia strong {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.noticia a {
+    display: block;
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f3134;
+}
+
+.noticia small {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.relevantes {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.relevantes img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.relevantes .noticia {
+    width: 193px;
+}
+
+.vertical {
+    border-left: 1px solid #ebedef;
+    margin-left: 36px;
+}
+
+.noticias-ge {
+    width: 20%;
+    max-width: 245px;
+    height: 100%;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.topo-site img{
-    width: 171px;
-    height: 36px;
-}
-
-.vinho{
-    color:#C3170C;
-}
-
-.azul{
-    color: #1E4B9B;
-}
-
-.verde-escuro{
-    color: #006766;
-}
-
-.verde-claro{
-    color: #07AA47;
-}
-
-.laranja-escuro{
-    color: #E3662B;
-}
-
-.vermelho{
-    color: #FB0735;
-}
-
-.rosa{
-    color: #FF75BB;
-}
-
-.laranja-claro{
-    color: #EC7D00;
-}
-
-.preto{
-    color: #323333;
-}
-
-.roxo{
-    color: #A81D83;
-}
-
-.azul-claro{
-    color: #0769DE;
-}
-
-.cinza{
-    color: #666666;
-}
-
-.menu-opcoes{
-    width: 100%;
-    height: 45px;
-
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 24px;
-    
-    text-align: center;
-    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-    border-top: 1px solid  #F5F6F7;
-    border-bottom: 1px solid  #F5F6F7;
-}
-
-.conteudo-site{
-    width: 1250px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 36px;
-
-    display: flex;
-}
-
-.noticias-g1{
-    width: 624px;
-}
-
-.noticia-principal h1{
-    font-size: 52px;
-    font-weight: 700;
-
-    line-height: 67px;
-
-    color: #c4160c;
-}
-
-.legenda-vacinados{
-    height: 57px;
-
-    margin-top: 29px;
-}
-
-.legenda-vacinados p{
-    padding-top: 14px;
-
-    font-size: 18px;
-    font-weight: 500;
-    
-    color: #303134;
-}
-
-.linha-horizontal{
-    border-bottom: 1px solid #EBEDEF;
-
-    margin-top: 30px;
-}
-
-.parlamentares{
-    margin-top: 25px;
-
-    display: flex;
-}
-
-.parlamentares img{
-    width: 193px;
-    height: 110px;
-
-    border-radius: 12px;
-}
-
-.parlamentares h2{
-    font-size: 20px;
-    font-weight: 700;
-
-    margin-top: 10px;
-}
-
-.parlamentares .title{
-    font-size: 14px;
-    font-weight: 500;
-
-    color: #c4170c;
-
-    margin-top: 11px;
-}
-
-.parlamentares .descricao{
-    font-size: 14px;
-    font-weight: 400;
-
-    margin-top: 5px; 
-}
-
-.alem-do-presidente, .crimes-fronteira, .reino-unido{
-    width: 193px;
-}
-
-.crimes-fronteira{
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.linha-horizontal-parlamentares{
-    border-bottom: 1px solid #EBEDEF;
-
-    margin-top: 36px;
-}
-
-.negocios{
-    display: flex;
-
-    margin-top: 25px;
-}
-
-.negocios .title{
-    font-size: 14px;
-    font-weight: 500;
-
-    color: #c4170c;
-}
-
-.negocios h2{
-    font-size: 20px;
-    font-weight: 700;
-
-    margin-top: 10px;
-}
-
-.negocios .descricao{
-    font-size: 14px;
-    font-weight: 400;
-
-    margin-top: 5px; 
-}
-
-.descricao{
-    line-height: 19px;
-}
-
-.vendas{
-    margin-left: 24px;
-    margin-right: 24px;
-}
-
-.linha-vertical{
-    height: 845px;
-    border-left: 1px solid #EBEDEF;
+.noticias-gshow {
+    width: 20%;
+    max-width: 245px;
+    height: 100%;
     margin-left: 36px;
-}
-
-.noticias-ge{
-    width: 240px;
-
-    margin-left: 35px;
-}
-
-.noticias-ge img, .noticias-gshow img{
-    width: 240px;
-    height: 128px;
-    
-    border-radius: 12px;
-}
-
-.noticias-ge .title{
-    font-size: 14px;
-    font-weight: 500;
-
-    color: #16AE54;
-
-    margin-top: 11px;
-}
-
-.noticias-ge h2{
-    font-size: 20px;
-    font-weight: 700;
-
-    margin-top: 7px;
-}
-
-.noticias-ge .descricao{
-    font-size: 14px;
-    font-weight: 400;
-
-    margin-top: 8px;
-}
-
-.cruzeiro{
-    margin-top: 50px;
-    margin-bottom: 42px;
-}
-
-.noticias-gshow{
-    width: 240px;
-
-    margin-left: 36px;
-}
-
-.noticias-gshow .title{
-    font-size: 14px;
-    font-weight: 500;
-
-    color: #EC8006;
-    margin-top: 11px;
-}
-
-.noticias-gshow h2{
-    font-size: 20px;
-    font-weight: 700;
-
-    margin-top: 7px;
-}
-
-.noticias-gshow .descricao{
-    font-size: 14px;
-    font-weight: 400;
-
-    margin-top: 8px;
-}
-
-.desfiles{
-    margin-top: 38px;
-}
-
-.imperador{
-    margin-top: 50px;
-}
-
-.angel .descricao-relacionamentos{
-    margin-top: 12px;
-}
-
-.angel .descricao-gabriel{
-    margin-top: 10px;
-}
-
-a{
-    color: #2F3134;
-}
-
-.tech, .videos{
-    display: none;
 }
